@@ -11,10 +11,6 @@ import UsersFollowing from '@/components/User/Profile/UsersFollowing'
 import UserFollowers from '@/components/User/Profile/UserFollowers'
 import FavoriteTweets from '@/components/User/Profile/FavoriteTweets'
 
-
-
-
-
 Vue.use(Router)
 
 export default new Router({

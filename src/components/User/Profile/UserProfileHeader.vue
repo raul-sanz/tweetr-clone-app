@@ -16,7 +16,7 @@
           </div>
           <div class="item">
             <div class="content">
-              <router-link :to="isOwner ? `/following` : `/${user.username}/following`">
+              <router-link :to="`/${user.username}/following`">
                 <div class="header">Following</div>
                 <strong>{{ user.following.length }}</strong>
               </router-link>
@@ -24,7 +24,7 @@
           </div>
           <div class="item">
             <div class="content">
-              <router-link :to="isOwner ? `/followers` : `/${user.username}/followers`">
+              <router-link :to=" `/${user.username}/followers`">
                 <div class="header">Followers</div>
                 <strong>{{ user.followers.length }}</strong>
               </router-link>
@@ -32,7 +32,7 @@
           </div>
           <div class="item">
             <div class="content">
-              <router-link :to="isOwner ? `/favorites` : `/${user.username}/favorites`">
+              <router-link :to=" `/${user.username}/favorites`">
                 <div class="header">Favorites</div>
                 <strong>{{ user.favorites.length }}</strong>
               </router-link>

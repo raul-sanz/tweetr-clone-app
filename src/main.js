@@ -11,7 +11,7 @@ Vue.filter('joined', date => moment(date).format('MMMM YYYY'))
 Vue.filter('dob', date => moment(date).format('MMMM Do YYYY'))
 
 window.axios = axios
-axios.defaults.baseURL = 'http://127.0.0.1:3333'
+axios.defaults.baseURL = 'https://tweetr-api-adonis.herokuapp.com'
 
 Vue.use(VeeValidate)
 
